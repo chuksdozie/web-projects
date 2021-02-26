@@ -2,9 +2,95 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My test page Original</title>
+    <title>Login Page</title>
   </head>
-  <body>
-    <img src="./images/BABY.jpg" alt="My test image">
+  <body >
+      <style>
+          .position{
+              position: relative;
+          }
+          .smaller-image{
+              height: 70px;
+              width: 70px;
+              border: 150px;
+              border-color:yellow;
+              border-radius: 50%;
+          }
+
+          .input-padding{
+              margin: 10px 80px 10px 80px;
+              border-radius: 10px;
+              align-content: space-around;
+              border-style: dotted;
+              height: 30px;
+
+          }
+          .image-padding{
+              margin: 0px 0px 10px 120px;
+          }
+
+          .button-padding{
+              margin: 10px 0px 0px 130px;
+          }
+
+          .div{
+              background-color:white;
+              border-radius: 20%;
+              border-width: 1px;
+              border-color: black;
+              width: 300px;
+              height: 300px;
+              border-style: solid;
+          }
+          .content{
+              max-width: 500px;
+              max-height: 100%;
+              margin:auto;
+          }
+
+          html, body, .container {
+    height: 100%;
+}
+
+          .container {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+      </style>
+    
+        <main class="content">
+        
+
+       <h2> LDFOSDF</h2><br>
+
+        <div class="container">
+            
+           <form class="">
+            <img  class="smaller-image" src="./images/BABY.jpg" alt="login avatar"><br>
+               <input type="text" required class="input-padding"> <br>
+               <input type="password" required  class="input-padding" ><br>
+               <button type="submit" class="button-padding">Login
+
+               </button>
+               <br>
+            <p class="container">Don't have an account? <a href="#">sign up</a> instead</p>
+
+           </form>
+           
+           
+        </div>
+        
+
+
+    
+        </main>
   </body>
 </html>
