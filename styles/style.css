@@ -1,0 +1,89 @@
+body {
+  background-color: #171717;
+  margin: auto;
+  font-family: "poppins", Courier, monospace;
+}
+h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+.div {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(252, 249, 246);
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 60%;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid rgb(252, 249, 246);
+  border-radius: 15px;
+}
+#p1 {
+  padding: 30px 30px 0px 30px;
+  width: auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#p2 {
+  padding: 10px;
+  width: auto;
+  text-align: justify;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.div1 {
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 15px gray;
+  padding: 20px 20px 20px 20px;
+  height: 40vh;
+  flex: 1 1 auto;
+}
+
+.div2 {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  margin-top: 45px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-top: 10px;
+  height: 45vh;
+  width: 40%;
+  flex: 1 1 auto;
+}
+.inputtxt {
+  padding: 10px;
+  margin: 10px;
+  width: 85%;
+  border-radius: 18px;
+  border: solid;
+  border-width: 0px;
+}
+.inputbut {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  border-radius: 18px;
+  border: solid;
+  border-width: 0px;
+  background-color: lightseagreen;
+  color: whitesmoke;
+}
+.inputbut:hover {
+  background-color: green;
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+a {
+  color: lightseagreen;
+}
