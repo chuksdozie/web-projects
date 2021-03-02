@@ -9,26 +9,69 @@
 body{
     background-color: #171717;
     margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'poppins', Courier, monospace;
 }
 h2{
     margin-top:30px ;
     text-align: center;
 }
 .div{
+    display: flex;
+
     background-color:rgb(252, 249, 246);
     margin: auto;
     margin-top: 5rem;
     margin-bottom:5rem;
-    width: 70%;
-    height: 25vh;
+    width: 60%;
+    height: 60vh;
     padding: 10px 10px 10px 10px;
     border: 2px solid rgb(252, 249, 246);
     border-radius: 15px;   
+    
 }
+#p1{
+    padding: 30px;
+    width: 70%;
+    text-align: left;
+    float: left;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+
 .div1{
     float:right;
     margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 15px gray;
+    padding:  20px 20px 20px 20px;
+    height: 40vh;
+    
+}
+.inputtxt{
+    padding:10px;
+    margin: 10px;
+    border-radius: 18px;
+    border: solid;
+    border-width: 0px;
+
+}
+.inputbut{
+    padding:10px;
+    margin: 10px;
+    width: 90%;
+    border-radius: 18px;
+    border: solid;
+    border-width: 0px;
+    background-color: lightseagreen;
+    color:whitesmoke;
+}
+.inputbut:hover{
+    background-color: green;
+}
+a{
+    color:lightseagreen;
 }
   </style>
 
@@ -36,17 +79,19 @@ h2{
         <main>
             <h2>hello</h2>
             <div class="div">
-                    <p>dshdhsdaysdhsbd sdxsdhDjxzudx sxgvdhgvxsjd</p>
+                    <p id="p1">Welcome back!</p>
+                    <p>we are happy</p>
 
                     <div class="div1">
-                        <text>LOGIN</text>
+                        <text class="inputtxt"><b>LOGIN</b></text>
                         <form action="">
-                            <input type="text" placeholder="username">
-                            hjh<br>
-                            <input type="text" placeholder="password" aria-placeholder="kkk">
-                            hjh<br>
-                            <input type="button" value="Login">
+                            <input class="inputtxt" type="text" placeholder="username">
+                            <br>
+                            <input class="inputtxt" type="text" placeholder="password" aria-placeholder="kkk">
+                            <br>
+                            <input class="inputbut" type="button" value="Login">
                         </form>
+                        <h6>Don't have an account? <a href=# >sign up</a> instead </h6>
                     </div>
             </div>
     
